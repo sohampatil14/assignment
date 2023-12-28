@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<class>
+    <student rollno="100">
+        <birthdate>2015-11-13</birthdate>
+        <gender>Male</gender>
+        <school>Summers Institute</school>
+        <marks>94.621506</marks>
+    </student>
+    <student rollno="101">
+        <birthdate>2018-12-16</birthdate>
+        <gender>Female</gender>
+        <school>Bear River Elementary</school>
+        <marks>81.75483</marks>
+    </student>
+    <student rollno="102">
+        <birthdate>2014-01-14</birthdate>
+        <gender>Female</gender>
+        <school>Waterfalls Middle School</school>
+        <marks>85.96851</marks>
+    </student>
+    <student rollno="103">
+        <birthdate>2010-02-25</birthdate>
+        <gender>Male</gender>
+        <school>Mountainview School</school>
+        <marks>80.97072</marks>
+    </student>
+    <student rollno="104">
+        <birthdate>2012-11-09</birthdate>
+        <gender>Male</gender>
+        <school>Westside School</school>
+        <marks>94.31802</marks>
+    </student>
+</class>
