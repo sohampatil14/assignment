@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login</title>
+</head>
+<body>
+<form action="login" method="post" onSubmit="return validateForm(this);">
+<br/>
+User Name: <br/> <input type="text" name="userName"/> <br/> <br/>
+Password: <br/> <input type="password" name="userPassword"/> <br/> <br/>
+<input type="submit" value="Submit"/> <br/>
+</form>
+
+<script>
+function validateForm(frm)
+{
+    if(frm.userName.value=="")
+    {
+      alert("User Name can not be left blank");
+      frm.username.focus();
+      return false;
+    }
+    else if(frm.userPassword.value=="")
+    {
+      alert("Password can not be left blank");
+      frm.password.focus();
+      return false;
+    }
+}
+</script>
+
+
+</body>
+</html>
