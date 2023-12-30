@@ -49,7 +49,8 @@ WHERE student_id = @roll_no;
 
 IF @percentage = -1
 	BEGIN
-		SELECT 'No assignment submitted'
+		SELECT @percentage, 'No assignment submitted';
+		SET @grade = '-1'
 	END
 ELSE
 	IF @percentage > 90
